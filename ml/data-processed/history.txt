@@ -1,0 +1,4 @@
+nohup python3 ../scripts/data_curation.py ../data/popc_chol-biogen-ER.csv & >> history.txt
+nohup python3 ../scripts/data_curation.py ../data/popc_chol-biogen-ER-including-protomers.csv & >> history.txt
+nohup python3 ../scripts/data_curation.py ../data/popc_chol-biogen-P_app.csv & >> history.txt
+nohup python3 ../scripts/data_curation.py ../data/popc_chol-biogen-P_app-including-protomers.csv & >> history.txt

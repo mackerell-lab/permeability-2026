@@ -1,0 +1,112 @@
+
+=== UNIQUE PARENTS ===
+Number of unique parents: 112
+['furosemide' 'antipyrine' 'carbamazepine' 'terbutaline' 'ranitidine'
+ 'metoprolol' 'atenolol' 'istradefylline' 'fluvastatin' 'cimetidine'
+ 'naproxen' 'fedratinib' 'amiloride' 'piroxicam' 'inogatran' 'ketoprofen'
+ 'voxelotor' 'voriconazole' 'lemborexant' 'desipramine' 'acetaminophen'
+ 'propranolol' 'caffeine' 'labetalol' 'olsalazine' 'cephalexin'
+ 'bupropion' 'practolol' 'lucifer_yellow' 'sotalol' 'timolol'
+ 'trimethoprim' 'lisinopril' 'cefatrizine' 'acetylsalicylic_acid'
+ 'acyclovir' 'guanabenz' 'pindolol' 'penicillin_v' 'phenytoin'
+ 'sumatriptan' 'alprenolol' 'gabapentin' 'loracarbef' 'salicylic_acid'
+ 'ondansetron' 'sulfasalazine' 'acrivastine' 'dexamethasone' 'lamotrigine'
+ 'propylthiouracil' 'chlorothiazide' 'cefuroxime' 'amoxicillin'
+ 'corticosterone' 'hydrocortisone' 'oxyprenolol' 'nadolol'
+ 'bretylium_tosylate' 'acebutolol' 'fluparoxan' 'progesterone'
+ 'netivudine' 'hydrochlorothiazide' 'testosterone' 'warfarin'
+ 'methylprednisolone' 'donepezil' 'rhodamine_123' 'diazepam' 'risperidone'
+ 'venlafaxine' 'fluoxetine' 'amitriptyline' 'chlorpromazine' 'clozapine'
+ 'perphenazine' 'trifluoperazine' 'mesoridazine' 'tiagabine' 'quetiapine'
+ 'citalopram' 'tacrine' 'meprobamate' 'maprotiline' 'mirtazapine'
+ 'phenelzine' 'ethosuximide' 'ergotamine' 'thiothixene' 'ziprasidone'
+ 'trazodone' 'pergolide' 'sertraline' 'primidone' 'olanzapine' 'doxepin'
+ 'metoclopramide' 'isocarboxazid' 'midazolam' 'thioridazine' 'zaleplon'
+ 'fluphenazine' 'amoxapine' 'pemoline' 'selegiline' 'amantadine'
+ 'atomoxetine' 'rizatriptan' 'haloperidol' 'loxapine' 'temazepam']
+
+=== UNIQUE Molecules (By Molecule Name) ===
+Number of unique ligands: 263
+['furosemide_19' 'antipyrine_4' 'carbamazepine_7' 'terbutaline_44'
+ 'ranitidine_38' 'furosemide_20' 'metoprolol_30' 'atenolol_5'
+ 'terbutaline_43' 'istradefylline_24' 'fluvastatin_17' 'cimetidine_9'
+ 'cimetidine_10' 'naproxen_32' 'fluvastatin_18' 'fedratinib_14'
+ 'amiloride_3' 'metoprolol_29' 'piroxicam_33' 'cimetidine_8'
+ 'fedratinib_15' 'ranitidine_39' 'inogatran_22' 'ketoprofen_26'
+ 'voxelotor_47' 'naproxen_31' 'piroxicam_34' 'inogatran_21'
+ 'voriconazole_46' 'ranitidine_41' 'lemborexant_28' 'desipramine_13'
+ 'ranitidine_40' 'acetaminophen_1' 'ketoprofen_27' 'voxelotor_48'
+ 'istradefylline_25' 'amiloride_2' 'desipramine_12' 'inogatran_23'
+ 'ranitidine_37' 'fedratinib_16' 'cimetidine_11' 'terbutaline_45'
+ 'atenolol_6' 'ranitidine_42' 'propranolol_36' 'propranolol_35'
+ 'atenolol_29' 'caffeine_35' 'atenolol_28' 'antipyrine_27' 'caffeine_36'
+ 'labetalol_96' 'olsalazine_38' 'cephalexin_47' 'bupropion_34'
+ 'practolol_62' 'terbutaline_105' 'practolol_63' 'labetalol_97'
+ 'lucifer_yellow_11' 'sotalol_91' 'timolol_116' 'trimethoprim_126'
+ 'timolol_117' 'ketoprofen_95' 'lisinopril_2' 'cefatrizine_41'
+ 'labetalol_98' 'acetylsalicylic_acid_5' 'acyclovir_9' 'guanabenz_87'
+ 'pindolol_61' 'lisinopril_3' 'penicillin_v_49' 'phenytoin_59'
+ 'cephalexin_48' 'acyclovir_11' 'cefatrizine_43' 'sumatriptan_98'
+ 'alprenolol_12' 'terbutaline_103' 'trimethoprim_124' 'gabapentin_81'
+ 'loracarbef_4' 'salicylic_acid_82' 'olsalazine_39' 'ondansetron_44'
+ 'sulfasalazine_95' 'propranolol_67' 'cefatrizine_42' 'trimethoprim_125'
+ 'acrivastine_8' 'sumatriptan_99' 'cephalexin_46' 'dexamethasone_59'
+ 'lamotrigine_99' 'metoprolol_23' 'ondansetron_45' 'furosemide_79'
+ 'olsalazine_41' 'terbutaline_104' 'propylthiouracil_68'
+ 'chlorothiazide_49' 'furosemide_78' 'cefuroxime_44' 'amoxicillin_26'
+ 'pindolol_60' 'corticosterone_58' 'ketoprofen_94' 'acrivastine_6'
+ 'olsalazine_40' 'hydrocortisone_92' 'metoprolol_22' 'alprenolol_13'
+ 'sotalol_89' 'sulfasalazine_92' 'oxyprenolol_47' 'olsalazine_37'
+ 'olsalazine_42' 'nadolol_31' 'sotalol_90' 'loracarbef_5' 'amoxicillin_25'
+ 'bretylium_tosylate_32' 'salicylic_acid_83' 'sulfasalazine_93'
+ 'acrivastine_7' 'amoxicillin_24' 'nadolol_30' 'lisinopril_1'
+ 'olsalazine_43' 'acebutolol_2' 'fluparoxan_74' 'progesterone_65'
+ 'netivudine_32' 'cefatrizine_40' 'fluparoxan_73' 'hydrochlorothiazide_90'
+ 'acebutolol_1' 'testosterone_106' 'sulfasalazine_94' 'acyclovir_10'
+ 'warfarin_131' 'sumatriptan_97' 'acetylsalicylic_acid_4'
+ 'hydrochlorothiazide_91' 'cefatrizine_39' 'cefuroxime_45' 'warfarin_130'
+ 'methylprednisolone_19' 'bupropion_33' 'loracarbef_6' 'oxyprenolol_46'
+ 'acetaminophen_3' 'propranolol_66' 'sulfasalazine_96' 'guanabenz_86'
+ 'salicylic_acid_81' 'penicillin_v_50' 'gabapentin_80' 'donepezil_62'
+ 'rhodamine_123_73' 'diazepam_60' 'risperidone_77' 'rhodamine_123_74'
+ 'risperidone_76' 'venlafaxine_129' 'venlafaxine_128' 'donepezil_61'
+ 'fluoxetine_72' 'carbamazepine_37' 'amitriptyline_17' 'fluoxetine_71'
+ 'chlorpromazine_51' 'chlorpromazine_50' 'amitriptyline_16' 'clozapine_57'
+ 'perphenazine_53' 'trifluoperazine_121' 'mesoridazine_16' 'tiagabine_114'
+ 'quetiapine_71' 'trifluoperazine_123' 'citalopram_52' 'tacrine_101'
+ 'meprobamate_15' 'maprotiline_13' 'quetiapine_69' 'perphenazine_55'
+ 'mirtazapine_26' 'phenelzine_58' 'clozapine_54' 'tacrine_100'
+ 'ethosuximide_70' 'ergotamine_66' 'thiothixene_109' 'ziprasidone_135'
+ 'phenelzine_56' 'trazodone_119' 'mesoridazine_17' 'pergolide_52'
+ 'sertraline_86' 'thiothixene_110' 'clozapine_56' 'primidone_64'
+ 'olanzapine_35' 'doxepin_63' 'metoclopramide_20' 'thiothixene_112'
+ 'isocarboxazid_93' 'midazolam_24' 'thioridazine_107' 'mirtazapine_27'
+ 'citalopram_53' 'zaleplon_132' 'ergotamine_65' 'fluphenazine_76'
+ 'fluphenazine_77' 'maprotiline_14' 'amoxapine_22' 'quetiapine_72'
+ 'pemoline_48' 'selegiline_84' 'amantadine_15' 'atomoxetine_31'
+ 'clozapine_55' 'thiothixene_111' 'trazodone_118' 'olanzapine_34'
+ 'amantadine_14' 'olanzapine_36' 'amoxapine_23' 'trifluoperazine_122'
+ 'metoclopramide_21' 'thioridazine_108' 'rizatriptan_80' 'haloperidol_89'
+ 'selegiline_85' 'haloperidol_88' 'trifluoperazine_120' 'atomoxetine_30'
+ 'pergolide_51' 'rizatriptan_78' 'olanzapine_33' 'loxapine_10'
+ 'sertraline_87' 'temazepam_102' 'doxepin_64' 'fluphenazine_75'
+ 'tiagabine_115' 'loxapine_9' 'amoxapine_20' 'perphenazine_54'
+ 'midazolam_25' 'rizatriptan_79' 'quetiapine_70' 'amoxapine_21'
+ 'ziprasidone_134' 'loxapine_7' 'phenelzine_57' 'loxapine_8']
+
+=== UNIQUE MOLECULES (by InChIKey) ===
+Number of unique molecules: 234
+            Parent  ...                     InChIKey
+0       Furosemide  ...  ZZUFCTLCJUWOSV-UHFFFAOYSA-N
+1       Antipyrine  ...  VEQOALNAAJBPNY-UHFFFAOYSA-N
+2    Carbamazepine  ...  FFGPTBGBLSHEPO-UHFFFAOYSA-N
+3      Terbutaline  ...  XWTYSIMOBUGWOL-NSHDSACASA-O
+4       Ranitidine  ...  SYNOVMDJYWJCON-UHFFFAOYSA-P
+..             ...  ...                          ...
+331      Amoxapine  ...  QWGDMFLQWFTERH-UHFFFAOYSA-N
+333      Midazolam  ...  DDLIGBOFAVUZHB-UHFFFAOYSA-O
+335    Rizatriptan  ...  ULFRLSNUDGIQQP-UHFFFAOYSA-O
+340    Ziprasidone  ...  MVWVFYHBGMAFLY-UHFFFAOYSA-N
+341       Loxapine  ...  XJGVXQDUIWGIRW-UHFFFAOYSA-N
+
+[234 rows x 3 columns]

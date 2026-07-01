@@ -1,0 +1,113 @@
+Molecule,Parent,Same_Expt_Different_Source,Different_Expt,included_in_files
+Acebutolol_2,Acebutolol,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-Irvine.csv
+Acetaminophen_1,Acetaminophen,NA,0.5636101520741761,"popc-chol_P_app_including_protomers_lgfe-MDCK-Irvine.csv, popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Hellinger.csv, popc-chol_P_app_including_protomers_lgfe-cMdr1_KO_MDCK1-beran.csv"
+Acetylsalicylic_Acid_5,Acetylsalicylic_Acid,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-Irvine.csv
+Acrivastine_8,Acrivastine,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-Irvine.csv
+Acyclovir_9,Acyclovir,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-Irvine.csv
+Alprenolol_12,Alprenolol,NA,0.6418271181994504,"popc-chol_P_app_including_protomers_lgfe-MDCK-Irvine.csv, popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Hellinger.csv"
+Amantadine_15,Amantadine,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Summerfield.csv
+Amiloride_3,Amiloride,NA,NA,popc-chol_P_app_including_protomers_lgfe-cMdr1_KO_MDCK1-beran.csv
+Amitriptyline_17,Amitriptyline,0.43855785958030147,NA,"popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-QWang.csv, popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Summerfield.csv"
+Amoxapine_22,Amoxapine,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Summerfield.csv
+Amoxicillin_26,Amoxicillin,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-Irvine.csv
+Antipyrine_4,Antipyrine,0.45060624823666307,0.43880404146408747,"popc-chol_P_app_including_protomers_lgfe-MDCK-Hellinger.csv, popc-chol_P_app_including_protomers_lgfe-MDCK-Irvine.csv, popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Hellinger.csv, popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-QWang.csv, popc-chol_P_app_including_protomers_lgfe-cMdr1_KO_MDCK1-beran.csv"
+Atenolol_5,Atenolol,0.5056848074065594,0.6356443453899105,"popc-chol_P_app_including_protomers_lgfe-MDCK-Hellinger.csv, popc-chol_P_app_including_protomers_lgfe-MDCK-Irvine.csv, popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Hellinger.csv, popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-QWang.csv, popc-chol_P_app_including_protomers_lgfe-cMdr1_KO_MDCK1-beran.csv"
+Atomoxetine_31,Atomoxetine,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Summerfield.csv
+Bretylium_Tosylate_32,Bretylium_Tosylate,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-Irvine.csv
+Bupropion_34,Bupropion,NA,0.4372497426819706,"popc-chol_P_app_including_protomers_lgfe-MDCK-Irvine.csv, popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Summerfield.csv"
+Caffeine_35,Caffeine,0.5897333378016132,0.2992701994731579,"popc-chol_P_app_including_protomers_lgfe-MDCK-Hellinger.csv, popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Hellinger.csv, popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-QWang.csv"
+Carbamazepine_7,Carbamazepine,0.19725947638090524,0.2848159391218239,"popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-QWang.csv, popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Summerfield.csv, popc-chol_P_app_including_protomers_lgfe-cMdr1_KO_MDCK1-beran.csv"
+Cefatrizine_41,Cefatrizine,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-Irvine.csv
+Cefuroxime_44,Cefuroxime,NA,0.20411998265592501,"popc-chol_P_app_including_protomers_lgfe-MDCK-Irvine.csv, popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-QWang.csv"
+Cephalexin_47,Cephalexin,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-Irvine.csv
+Chlorothiazide_49,Chlorothiazide,0.44715803134221943,0.1443977696234846,"popc-chol_P_app_including_protomers_lgfe-MDCK-Irvine.csv, popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Hellinger.csv, popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-QWang.csv"
+Chlorpromazine_51,Chlorpromazine,0.07824324464216037,NA,"popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-QWang.csv, popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Summerfield.csv"
+Cimetidine_9,Cimetidine,NA,NA,popc-chol_P_app_including_protomers_lgfe-cMdr1_KO_MDCK1-beran.csv
+Citalopram_52,Citalopram,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Summerfield.csv
+Clozapine_57,Clozapine,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Summerfield.csv
+Corticosterone_58,Corticosterone,NA,0.38120505102835,"popc-chol_P_app_including_protomers_lgfe-MDCK-Irvine.csv, popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Hellinger.csv"
+Desipramine_13,Desipramine,NA,NA,popc-chol_P_app_including_protomers_lgfe-cMdr1_KO_MDCK1-beran.csv
+Dexamethasone_59,Dexamethasone,NA,0.5086383061657278,"popc-chol_P_app_including_protomers_lgfe-MDCK-Irvine.csv, popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Hellinger.csv"
+Diazepam_60,Diazepam,0.11523739409758793,NA,"popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Hellinger.csv, popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Summerfield.csv"
+Donepezil_62,Donepezil,0.056544029230845894,NA,"popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Hellinger.csv, popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Summerfield.csv"
+Doxepin_63,Doxepin,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Summerfield.csv
+Ergotamine_66,Ergotamine,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Summerfield.csv
+Ethosuximide_70,Ethosuximide,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Summerfield.csv
+Fedratinib_14,Fedratinib,NA,NA,popc-chol_P_app_including_protomers_lgfe-cMdr1_KO_MDCK1-beran.csv
+Fluoxetine_72,Fluoxetine,0.10123138679069843,NA,"popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-QWang.csv, popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Summerfield.csv"
+Fluparoxan_74,Fluparoxan,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-Irvine.csv
+Fluphenazine_76,Fluphenazine,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Summerfield.csv
+Fluvastatin_17,Fluvastatin,NA,NA,popc-chol_P_app_including_protomers_lgfe-cMdr1_KO_MDCK1-beran.csv
+Furosemide_19,Furosemide,1.3979400086720375,0.6462636538200153,"popc-chol_P_app_including_protomers_lgfe-MDCK-Irvine.csv, popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Hellinger.csv, popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-QWang.csv, popc-chol_P_app_including_protomers_lgfe-cMdr1_KO_MDCK1-beran.csv"
+Gabapentin_81,Gabapentin,NA,0.045757490560675684,"popc-chol_P_app_including_protomers_lgfe-MDCK-Irvine.csv, popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Summerfield.csv"
+Guanabenz_87,Guanabenz,NA,0.6412638714403185,"popc-chol_P_app_including_protomers_lgfe-MDCK-Irvine.csv, popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Hellinger.csv"
+Haloperidol_89,Haloperidol,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Summerfield.csv
+Hydrochlorothiazide_90,Hydrochlorothiazide,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-Irvine.csv
+Hydrocortisone_92,Hydrocortisone,NA,0.2818466792916423,"popc-chol_P_app_including_protomers_lgfe-MDCK-Irvine.csv, popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Hellinger.csv"
+Inogatran_22,Inogatran,NA,NA,popc-chol_P_app_including_protomers_lgfe-cMdr1_KO_MDCK1-beran.csv
+Isocarboxazid_93,Isocarboxazid,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Summerfield.csv
+Istradefylline_24,Istradefylline,NA,NA,popc-chol_P_app_including_protomers_lgfe-cMdr1_KO_MDCK1-beran.csv
+Ketoprofen_26,Ketoprofen,NA,0.27777753603026945,"popc-chol_P_app_including_protomers_lgfe-MDCK-Irvine.csv, popc-chol_P_app_including_protomers_lgfe-cMdr1_KO_MDCK1-beran.csv"
+Labetalol_96,Labetalol,1.0543576623225928,1.3936399227910785,"popc-chol_P_app_including_protomers_lgfe-MDCK-Irvine.csv, popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Hellinger.csv, popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-QWang.csv"
+Lamotrigine_99,Lamotrigine,0.4129541526314844,0.4391525194247192,"popc-chol_P_app_including_protomers_lgfe-MDCK-Irvine.csv, popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Hellinger.csv, popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Summerfield.csv"
+Lemborexant_28,Lemborexant,NA,NA,popc-chol_P_app_including_protomers_lgfe-cMdr1_KO_MDCK1-beran.csv
+Lisinopril_2,Lisinopril,NA,1.5835765856339492,"popc-chol_P_app_including_protomers_lgfe-MDCK-Irvine.csv, popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Hellinger.csv"
+Loracarbef_4,Loracarbef,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-Irvine.csv
+Loxapine_10,Loxapine,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Summerfield.csv
+Lucifer_Yellow_11,Lucifer_Yellow,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-Irvine.csv
+Maprotiline_13,Maprotiline,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Summerfield.csv
+Meprobamate_15,Meprobamate,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Summerfield.csv
+Mesoridazine_16,Mesoridazine,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Summerfield.csv
+Methylprednisolone_19,Methylprednisolone,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-Irvine.csv
+Metoclopramide_20,Metoclopramide,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Summerfield.csv
+Metoprolol_30,Metoprolol,NA,0.7592843872327362,"popc-chol_P_app_including_protomers_lgfe-MDCK-Irvine.csv, popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Hellinger.csv, popc-chol_P_app_including_protomers_lgfe-cMdr1_KO_MDCK1-beran.csv"
+Midazolam_24,Midazolam,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Summerfield.csv
+Mirtazapine_26,Mirtazapine,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Summerfield.csv
+Nadolol_31,Nadolol,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-Irvine.csv
+Naproxen_32,Naproxen,NA,NA,popc-chol_P_app_including_protomers_lgfe-cMdr1_KO_MDCK1-beran.csv
+Netivudine_32,Netivudine,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-Irvine.csv
+Olanzapine_35,Olanzapine,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Summerfield.csv
+Olsalazine_38,Olsalazine,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-Irvine.csv
+Ondansetron_44,Ondansetron,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-Irvine.csv
+Oxyprenolol_47,Oxyprenolol,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-Irvine.csv
+Pemoline_48,Pemoline,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Summerfield.csv
+Penicillin_V_49,Penicillin_V,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-Irvine.csv
+Pergolide_52,Pergolide,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Summerfield.csv
+Perphenazine_53,Perphenazine,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Summerfield.csv
+Phenelzine_58,Phenelzine,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Summerfield.csv
+Phenytoin_59,Phenytoin,0.23007307152192613,0.5295758062524629,"popc-chol_P_app_including_protomers_lgfe-MDCK-Irvine.csv, popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Hellinger.csv, popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Summerfield.csv"
+Pindolol_61,Pindolol,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-Irvine.csv
+Piroxicam_33,Piroxicam,NA,NA,popc-chol_P_app_including_protomers_lgfe-cMdr1_KO_MDCK1-beran.csv
+Practolol_62,Practolol,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-Irvine.csv
+Primidone_64,Primidone,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Summerfield.csv
+Progesterone_65,Progesterone,NA,0.5988149365148159,"popc-chol_P_app_including_protomers_lgfe-MDCK-Irvine.csv, popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Hellinger.csv"
+Propranolol_36,Propranolol,NA,0.8504186734104433,"popc-chol_P_app_including_protomers_lgfe-MDCK-Irvine.csv, popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Hellinger.csv, popc-chol_P_app_including_protomers_lgfe-cMdr1_KO_MDCK1-beran.csv"
+Propylthiouracil_68,Propylthiouracil,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-Irvine.csv
+Quetiapine_71,Quetiapine,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Summerfield.csv
+Ranitidine_38,Ranitidine,NA,NA,popc-chol_P_app_including_protomers_lgfe-cMdr1_KO_MDCK1-beran.csv
+Rhodamine_123_73,Rhodamine_123,0.6180480967120925,NA,"popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Hellinger.csv, popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-QWang.csv"
+Risperidone_77,Risperidone,0.011738403271244202,NA,"popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Hellinger.csv, popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Summerfield.csv"
+Rizatriptan_80,Rizatriptan,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Summerfield.csv
+Salicylic_Acid_82,Salicylic_Acid,NA,0.0315170514460652,"popc-chol_P_app_including_protomers_lgfe-MDCK-Irvine.csv, popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Hellinger.csv"
+Selegiline_84,Selegiline,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Summerfield.csv
+Sertraline_86,Sertraline,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Summerfield.csv
+Sotalol_91,Sotalol,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-Irvine.csv
+Sulfasalazine_95,Sulfasalazine,0.5606673061697371,0.3595148991324937,"popc-chol_P_app_including_protomers_lgfe-MDCK-Irvine.csv, popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Hellinger.csv, popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-QWang.csv"
+Sumatriptan_98,Sumatriptan,NA,0.6766936096248664,"popc-chol_P_app_including_protomers_lgfe-MDCK-Irvine.csv, popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Summerfield.csv"
+Tacrine_101,Tacrine,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Summerfield.csv
+Temazepam_102,Temazepam,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Summerfield.csv
+Terbutaline_44,Terbutaline,NA,0.9586073148417746,"popc-chol_P_app_including_protomers_lgfe-MDCK-Irvine.csv, popc-chol_P_app_including_protomers_lgfe-cMdr1_KO_MDCK1-beran.csv"
+Testosterone_106,Testosterone,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-Irvine.csv
+Thioridazine_107,Thioridazine,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Summerfield.csv
+Thiothixene_109,Thiothixene,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Summerfield.csv
+Tiagabine_114,Tiagabine,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Summerfield.csv
+Timolol_116,Timolol,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-Irvine.csv
+Trazodone_119,Trazodone,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Summerfield.csv
+Trifluoperazine_121,Trifluoperazine,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Summerfield.csv
+Trimethoprim_126,Trimethoprim,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-Irvine.csv
+Venlafaxine_129,Venlafaxine,0.4771212547196626,NA,"popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Hellinger.csv, popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Summerfield.csv"
+Voriconazole_46,Voriconazole,NA,NA,popc-chol_P_app_including_protomers_lgfe-cMdr1_KO_MDCK1-beran.csv
+Voxelotor_47,Voxelotor,NA,NA,popc-chol_P_app_including_protomers_lgfe-cMdr1_KO_MDCK1-beran.csv
+Warfarin_131,Warfarin,NA,0.022276394711151504,"popc-chol_P_app_including_protomers_lgfe-MDCK-Irvine.csv, popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Hellinger.csv"
+Zaleplon_132,Zaleplon,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Summerfield.csv
+Ziprasidone_135,Ziprasidone,NA,NA,popc-chol_P_app_including_protomers_lgfe-MDCK-MDR1-Summerfield.csv

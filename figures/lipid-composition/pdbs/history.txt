@@ -1,0 +1,12 @@
+python3 visualize.py --set 3 --set_name N --files mass_{POPC,SAPC,SAPE,SAPS,SLPC,SOPE,OSM}_bbb_dummy_centered.out --outfile bbb_N.png
+python3 visualize.py --set 2 --set_name P --files mass_{POPC,SAPC,SAPE,SAPI,SAPS,SLPC,SOPE,OSM}_bbb_dummy_centered.out --outfile bbb_P.png
+python3 visualize.py --set 1 --set_name C2-18 --files mass_{POPC,SAPC,SAPE,SAPI,SAPS,SLPC,SOPE,OSM}_bbb_dummy_centered.out --outfile bbb_c2-18.png
+python3 visualize.py --set 1 2 --set_name C26 O3 --files mass_CHL1_bbb_dummy_centered.out --outfile bbb_chol.png
+
+python3 visualize.py --set 1 2 --set_name C26 O3 --files mass_CHL1_pampa_dummy_centered.out --outfile pampa_chol.png
+python3 visualize.py --set 2 --set_name P --files mass_{DOPC,DOPS}_pampa_dummy_centered.out --outfile pampa_P.png
+python3 visualize.py --set 3 --set_name N --files mass_{DOPC,DOPS}_pampa_dummy_centered.out --outfile pampa_N.png
+python3 visualize.py --set 1 --set_name C2-18 --files mass_{DOPC,DOPS}_pampa_dummy_centered.out --outfile pampa_c2-18.png
+
+python3 visualize.py --set 1 2 3 --set_name C2-18 P N --files mass_POPC_popc_chol_dummy_centered.out --outfile popc_popc.png
+python3 visualize.py --set 1 2 --set_name C26 O3 --files mass_CHL1_popc_chol_dummy_centered.out --outfile popc_chol.png
