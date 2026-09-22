@@ -1,0 +1,546 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Install RDKit in base",
+			"type": "shell",
+			"command": "C:\\Users\\Ashlin\\miniconda3\\python.exe",
+			"args": [
+				"-m",
+				"pip",
+				"install",
+				"rdkit"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Run localized pair finder",
+			"type": "shell",
+			"command": "C:\\Users\\Ashlin\\miniconda3\\python.exe",
+			"args": [
+				"sGFE_analysis\\find_localized_transform_pairs.py",
+				"figures\\lgfe-analysis\\data\\bbb-biogen-P_app_lgfe.csv",
+				"--output",
+				"sGFE_analysis\\bbb_biogen_localized_pairs.csv"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Install pandas in base",
+			"type": "shell",
+			"command": "C:\\Users\\Ashlin\\miniconda3\\python.exe",
+			"args": [
+				"-m",
+				"pip",
+				"install",
+				"pandas"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Run localized pair finder",
+			"type": "shell",
+			"command": "C:\\Users\\Ashlin\\miniconda3\\python.exe",
+			"args": [
+				"sGFE_analysis\\find_localized_transform_pairs.py",
+				"figures\\lgfe-analysis\\data\\bbb-biogen-P_app_lgfe.csv",
+				"--output",
+				"sGFE_analysis\\bbb_biogen_localized_pairs.csv"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Summarize localized pairs",
+			"type": "shell",
+			"command": "C:\\Users\\Ashlin\\miniconda3\\python.exe",
+			"args": [
+				"-c",
+				"import pandas as pd; df = pd.read_csv(r'sGFE_analysis\\bbb_biogen_localized_pairs.csv'); print('TOP_TRANSFORMATIONS'); print(df['transformation'].value_counts().head(10).to_string()); print('\\nTOP_CONTEXTS'); print(df['context_smiles'].value_counts().head(10).to_string()); print('\\nTOP_ABS_DELTAS'); cols=['molecule_a_id','molecule_b_id','transformation','delta_property_b_minus_a']; print(df.assign(abs_delta=df['delta_property_b_minus_a'].abs()).sort_values('abs_delta', ascending=False)[cols + ['abs_delta']].head(10).to_string(index=False))"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Summarize localized pairs with PowerShell",
+			"type": "shell",
+			"command": "$df = Import-Csv \"sGFE_analysis\\bbb_biogen_localized_pairs.csv\"; Write-Host \"TOP_TRANSFORMATIONS\"; $df | Group-Object transformation | Sort-Object Count -Descending | Select-Object -First 10 Count, Name | Format-Table -AutoSize; Write-Host \"`nTOP_CONTEXTS\"; $df | Group-Object context_smiles | Sort-Object Count -Descending | Select-Object -First 10 Count, Name | Format-Table -AutoSize; Write-Host \"`nTOP_ABS_DELTAS\"; $df | Select-Object molecule_a_id, molecule_b_id, transformation, delta_property_b_minus_a, @{Name='abs_delta';Expression={[math]::Abs([double]$_.delta_property_b_minus_a)}} | Sort-Object abs_delta -Descending | Select-Object -First 10 | Format-Table -AutoSize",
+			"isBackground": false
+		},
+		{
+			"label": "Render top pair grid",
+			"type": "shell",
+			"command": "py",
+			"args": [
+				"-3.9",
+				"sGFE_analysis\\visualize_candidate_pairs.py",
+				"sGFE_analysis\\bbb_biogen_localized_pairs.csv",
+				"--output",
+				"sGFE_analysis\\bbb_biogen_top_pairs.png",
+				"--top-n",
+				"12"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Run top Tanimoto pairs",
+			"type": "shell",
+			"command": "C:\\WINDOWS\\py.exe",
+			"args": [
+				"-3.9",
+				"sGFE_analysis\\find_top_tanimoto_pairs.py",
+				"figures\\lgfe-analysis\\data\\bbb-biogen-P_app_lgfe.csv",
+				"--output",
+				"sGFE_analysis\\bbb_biogen_top20_tanimoto_pairs.csv",
+				"--top-n",
+				"20"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Run optimized top Tanimoto pairs",
+			"type": "shell",
+			"command": "C:\\WINDOWS\\py.exe",
+			"args": [
+				"-3.9",
+				"sGFE_analysis\\find_top_tanimoto_pairs.py",
+				"figures\\lgfe-analysis\\data\\bbb-biogen-P_app_lgfe.csv",
+				"--output",
+				"sGFE_analysis\\bbb_biogen_top20_tanimoto_pairs.csv",
+				"--top-n",
+				"20"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Render top 20 Tanimoto pairs",
+			"type": "shell",
+			"command": "C:\\WINDOWS\\py.exe",
+			"args": [
+				"-3.9",
+				"sGFE_analysis\\visualize_candidate_pairs.py",
+				"sGFE_analysis\\bbb_biogen_top20_tanimoto_pairs.csv",
+				"--output",
+				"sGFE_analysis\\bbb_biogen_top20_tanimoto_pairs.png",
+				"--top-n",
+				"20",
+				"--sort-by",
+				"none",
+				"--mols-per-row",
+				"2",
+				"--sub-image-size",
+				"500",
+				"320"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Render top 20 Tanimoto pairs",
+			"type": "shell",
+			"command": "C:\\WINDOWS\\py.exe",
+			"args": [
+				"-3.9",
+				"sGFE_analysis\\visualize_candidate_pairs.py",
+				"sGFE_analysis\\bbb_biogen_top20_tanimoto_pairs.csv",
+				"--output",
+				"sGFE_analysis\\bbb_biogen_top20_tanimoto_pairs.png",
+				"--top-n",
+				"20",
+				"--sort-by",
+				"none",
+				"--mols-per-row",
+				"2",
+				"--sub-image-size",
+				"500",
+				"320"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Render focal localized pairs",
+			"type": "shell",
+			"command": "C:\\WINDOWS\\py.exe",
+			"args": [
+				"-3.9",
+				"sGFE_analysis\\visualize_focal_localized_pairs.py",
+				"sGFE_analysis\\bbb_biogen_localized_pairs.csv",
+				"31981950",
+				"--output",
+				"sGFE_analysis\\31981950_localized_pairs_highlighted.png",
+				"--top-n",
+				"7",
+				"--sort-by",
+				"abs_delta",
+				"--mols-per-row",
+				"2",
+				"--sub-image-size",
+				"520",
+				"340"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Render filtered focal pairs",
+			"type": "shell",
+			"command": "C:\\WINDOWS\\py.exe",
+			"args": [
+				"-3.9",
+				"sGFE_analysis\\visualize_focal_localized_pairs.py",
+				"sGFE_analysis\\31981950_without_31981926.csv",
+				"31981950",
+				"--output",
+				"sGFE_analysis\\31981950_without_31981926_highlighted.png",
+				"--top-n",
+				"6",
+				"--sort-by",
+				"abs_delta",
+				"--mols-per-row",
+				"2",
+				"--sub-image-size",
+				"520",
+				"340"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Render focal pairs with yellow scaffold",
+			"type": "shell",
+			"command": "C:\\WINDOWS\\py.exe",
+			"args": [
+				"-3.9",
+				"sGFE_analysis\\visualize_focal_localized_pairs.py",
+				"sGFE_analysis\\bbb_biogen_localized_pairs.csv",
+				"31981950",
+				"--exclude-id",
+				"31981926",
+				"--output",
+				"sGFE_analysis\\31981950_without_31981926_yellow_scaffold.png",
+				"--top-n",
+				"6",
+				"--sort-by",
+				"abs_delta",
+				"--mols-per-row",
+				"2",
+				"--sub-image-size",
+				"520",
+				"340"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Render connected focal pairs",
+			"type": "shell",
+			"command": "C:\\WINDOWS\\py.exe",
+			"args": [
+				"-3.9",
+				"sGFE_analysis\\visualize_focal_localized_pairs.py",
+				"sGFE_analysis\\bbb_biogen_localized_pairs.csv",
+				"32148273",
+				"--output",
+				"sGFE_analysis\\32148273_localized_pairs_connected.png",
+				"--top-n",
+				"6",
+				"--sort-by",
+				"abs_delta",
+				"--mols-per-row",
+				"2",
+				"--sub-image-size",
+				"520",
+				"340"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Render 300449850 focal pairs",
+			"type": "shell",
+			"command": "C:\\WINDOWS\\py.exe",
+			"args": [
+				"-3.9",
+				"sGFE_analysis\\visualize_focal_localized_pairs.py",
+				"sGFE_analysis\\bbb_biogen_localized_pairs.csv",
+				"300449850",
+				"--output",
+				"sGFE_analysis\\300449850_localized_pairs_connected.png",
+				"--top-n",
+				"6",
+				"--sort-by",
+				"abs_delta",
+				"--mols-per-row",
+				"2",
+				"--sub-image-size",
+				"520",
+				"340"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Render unbranched 300449850 MMPs",
+			"type": "shell",
+			"command": "C:\\WINDOWS\\py.exe",
+			"args": [
+				"-3.9",
+				"sGFE_analysis\\visualize_focal_localized_pairs.py",
+				"sGFE_analysis\\300449850_unbranched_fluorobenzene.csv",
+				"300449850",
+				"--output",
+				"sGFE_analysis\\300449850_unbranched_fluorobenzene.png",
+				"--top-n",
+				"6",
+				"--sort-by",
+				"abs_delta",
+				"--mols-per-row",
+				"2",
+				"--sub-image-size",
+				"520",
+				"340"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Render 300449850 fluorobenzene scaffold",
+			"type": "shell",
+			"command": "C:\\WINDOWS\\py.exe",
+			"args": [
+				"-3.9",
+				"sGFE_analysis\\visualize_focal_localized_pairs.py",
+				"sGFE_analysis\\300449850_unbranched_fluorobenzene.csv",
+				"300449850",
+				"--scaffold-smarts",
+				"c1ccc(F)cc1",
+				"--output",
+				"sGFE_analysis\\300449850_fluorobenzene_core.png",
+				"--top-n",
+				"6",
+				"--sort-by",
+				"abs_delta",
+				"--mols-per-row",
+				"2",
+				"--sub-image-size",
+				"520",
+				"340"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Render 300449850 with default scaffold",
+			"type": "shell",
+			"command": "C:\\WINDOWS\\py.exe",
+			"args": [
+				"-3.9",
+				"sGFE_analysis\\visualize_focal_localized_pairs.py",
+				"sGFE_analysis\\300449850_fluorobenzene_core.csv",
+				"300449850",
+				"--output",
+				"sGFE_analysis\\300449850_fluorobenzene_core_default.png",
+				"--top-n",
+				"6",
+				"--sort-by",
+				"abs_delta",
+				"--mols-per-row",
+				"2",
+				"--sub-image-size",
+				"520",
+				"340"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Render 31981950 common-variable grid",
+			"type": "shell",
+			"command": "C:\\WINDOWS\\py.exe",
+			"args": [
+				"-3.9",
+				"sGFE_analysis\\visualize_common_variable_grid.py",
+				"sGFE_analysis\\31981950_localized_pairs.csv",
+				"31981950",
+				"--output",
+				"sGFE_analysis\\31981950_common_variable_grid.png",
+				"--top-n",
+				"6",
+				"--sort-by",
+				"abs_delta",
+				"--mols-per-row",
+				"4",
+				"--sub-image-size",
+				"420",
+				"320"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Render 31981950 large Papp labels",
+			"type": "shell",
+			"command": "C:\\WINDOWS\\py.exe",
+			"args": [
+				"-3.9",
+				"sGFE_analysis\\visualize_focal_localized_pairs.py",
+				"sGFE_analysis\\31981950_localized_pairs.csv",
+				"31981950",
+				"--output",
+				"sGFE_analysis\\31981950_large_papp_labels.png",
+				"--top-n",
+				"6",
+				"--sort-by",
+				"abs_delta",
+				"--mols-per-row",
+				"2",
+				"--sub-image-size",
+				"520",
+				"360",
+				"--legend-font-size",
+				"32",
+				"--papp-only-labels"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Render 31981950 unique molecule grid",
+			"type": "shell",
+			"command": "C:\\WINDOWS\\py.exe",
+			"args": [
+				"-3.9",
+				"sGFE_analysis\\visualize_unique_focal_molecules.py",
+				"sGFE_analysis\\31981950_localized_pairs.csv",
+				"31981950",
+				"--output",
+				"sGFE_analysis\\31981950_unique_molecules_3x3.png",
+				"--grid-size",
+				"3",
+				"3",
+				"--sub-image-size",
+				"520",
+				"360",
+				"--legend-font-size",
+				"32"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Render highlighted 31981950 molecule grid",
+			"type": "shell",
+			"command": "C:\\WINDOWS\\py.exe",
+			"args": [
+				"-3.9",
+				"sGFE_analysis\\visualize_unique_focal_molecules.py",
+				"sGFE_analysis\\31981950_localized_pairs.csv",
+				"31981950",
+				"--output",
+				"sGFE_analysis\\31981950_unique_molecules_3x3_highlighted.png",
+				"--grid-size",
+				"3",
+				"3",
+				"--sub-image-size",
+				"520",
+				"360",
+				"--legend-font-size",
+				"32"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Render 31981950 LGFE profiles",
+			"type": "shell",
+			"command": "C:\\WINDOWS\\py.exe",
+			"args": [
+				"-3.9",
+				"sGFE_analysis\\plot_focal_lgfe_profiles.py",
+				"sGFE_analysis\\31981950_localized_pairs.csv",
+				"figures\\lgfe-analysis\\data\\bbb-biogen-P_app_lgfe.csv",
+				"--output",
+				"sGFE_analysis\\LGFE_profiles_31981950.png",
+				"--title",
+				"BBB Biogen LGFE profiles for 31981950 series",
+				"--focal-id",
+				"31981950"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Render 31981950 LGFE profiles",
+			"type": "shell",
+			"command": "C:\\WINDOWS\\py.exe",
+			"args": [
+				"-3.9",
+				"sGFE_analysis\\plot_focal_lgfe_profiles.py",
+				"sGFE_analysis\\31981950_localized_pairs.csv",
+				"figures\\lgfe-analysis\\data\\bbb-biogen-P_app_lgfe.csv",
+				"--output",
+				"sGFE_analysis\\LGFE_profiles_31981950.png",
+				"--title",
+				"BBB Biogen LGFE profiles for 31981950 series",
+				"--focal-id",
+				"31981950"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Check matplotlib import",
+			"type": "shell",
+			"command": "C:\\WINDOWS\\py.exe",
+			"args": [
+				"-3.9",
+				"-c",
+				"import sys; print(sys.executable); import matplotlib; print(matplotlib.__version__)"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Render 31981950 LGFE profiles",
+			"type": "shell",
+			"command": "C:\\WINDOWS\\py.exe",
+			"args": [
+				"-3.9",
+				"sGFE_analysis\\plot_focal_lgfe_profiles.py",
+				"sGFE_analysis\\31981950_localized_pairs.csv",
+				"figures\\lgfe-analysis\\data\\bbb-biogen-P_app_lgfe.csv",
+				"--output",
+				"sGFE_analysis\\LGFE_profiles_31981950.png",
+				"--title",
+				"BBB Biogen LGFE profiles for 31981950 series",
+				"--focal-id",
+				"31981950"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Render 31981950 LGFE profiles with legend",
+			"type": "shell",
+			"command": "C:\\WINDOWS\\py.exe",
+			"args": [
+				"-3.9",
+				"sGFE_analysis\\plot_focal_lgfe_profiles.py",
+				"sGFE_analysis\\31981950_localized_pairs.csv",
+				"figures\\lgfe-analysis\\data\\bbb-biogen-P_app_lgfe.csv",
+				"--output",
+				"sGFE_analysis\\LGFE_profiles_31981950_with_legend.png",
+				"--title",
+				"BBB Biogen LGFE profiles for 31981950 series",
+				"--focal-id",
+				"31981950",
+				"--legend-font-size",
+				"10",
+				"--legend-loc",
+				"upper right"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Render sorted LGFE profiles",
+			"type": "shell",
+			"command": "C:\\WINDOWS\\py.exe",
+			"args": [
+				"-3.9",
+				"sGFE_analysis\\plot_focal_lgfe_profiles.py",
+				"sGFE_analysis\\31981950_localized_pairs.csv",
+				"figures\\lgfe-analysis\\data\\bbb-biogen-P_app_lgfe.csv",
+				"--output",
+				"sGFE_analysis\\LGFE_profiles_31981950_sorted_legend.png",
+				"--title",
+				"BBB Biogen LGFE profiles for 31981950 series",
+				"--legend-font-size",
+				"10",
+				"--legend-loc",
+				"upper right"
+			],
+			"isBackground": false
+		}
+	]
+}

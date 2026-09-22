@@ -65,6 +65,6 @@ plot_scatter_with_histograms(
     "LOG10 MDR1-MDCK Papp_A2B (cm/s)",
     "LOG 10 ER Calc",
     "log10(P_app)",
-    "Efflux Ratio",
+    "log10(Efflux Ratio)",
     "stats.png",
 )
